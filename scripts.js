@@ -31,7 +31,7 @@ function success(position){
     }
 
     marker = L.marker([lat, ltd]).addTo(map);
-    circle = L.circle([lat, ltd], {radius: accuracy}).addTo(map);
+    circle = L.circle([lat, ltd], {radius: 150}).addTo(map);
     console.log('marked')
     
     if (!zoomed){
