@@ -15,6 +15,8 @@ navigator.geolocation.getCurrentPosition(success, error);
 
 let marker, circle, zoomed;
 
+
+
 function success(position){
     const lat = position.coords.latitude;
     const ltd = position.coords.longitude;
@@ -53,3 +55,6 @@ function error(err){
     }
 
 }
+
+
+schoolMark = L.marker([13.9464715, 121.5871204]).addTo(map);
