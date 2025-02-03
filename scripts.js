@@ -58,3 +58,4 @@ function error(err){
 
 
 schoolMark = L.marker([13.9464715, 121.5871204]).addTo(map);
+hometown = L.marker([8.0052387, 124.2877757]).addTo(map);
